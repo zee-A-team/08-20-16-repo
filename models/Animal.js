@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 
 const animalSchema = new Schema({
   "_id": String,
-  "Common name": String,
-  "Scientific name": String,
+  "common_name": String,
+  "scientific_name": String,
   "date": String,
   "Range": String,
   "Type": String,
